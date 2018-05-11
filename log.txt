@@ -1,0 +1,605 @@
+current dir is /home/zs/AI_Work/week9_new
+############ 0 runnning #################
+############ 0 training #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/zs/AI_Work/week9_new/object_detection/trainer.py:210: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+WARNING:tensorflow:From /home/zs/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:736: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-05-11 08:50:23.941659: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 08:50:24.624490: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 08:50:24.624559: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-0
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 0.
+INFO:tensorflow:global step 1: loss = 26.6719 (75.496 sec/step)
+INFO:tensorflow:global step 2: loss = 24.6874 (15.895 sec/step)
+INFO:tensorflow:global step 3: loss = 23.3062 (6.097 sec/step)
+INFO:tensorflow:global step 4: loss = 22.1818 (5.794 sec/step)
+INFO:tensorflow:global step 5: loss = 20.5862 (4.985 sec/step)
+INFO:tensorflow:global step 6: loss = 19.3879 (6.339 sec/step)
+INFO:tensorflow:Recording summary at step 6.
+INFO:tensorflow:global_step/sec: 0.0525332
+INFO:tensorflow:global step 7: loss = 17.6424 (5.262 sec/step)
+INFO:tensorflow:global step 8: loss = 16.4712 (5.023 sec/step)
+INFO:tensorflow:global step 9: loss = 15.4955 (5.035 sec/step)
+INFO:tensorflow:global step 10: loss = 14.3238 (5.086 sec/step)
+INFO:tensorflow:global step 11: loss = 13.3985 (5.101 sec/step)
+INFO:tensorflow:global step 12: loss = 12.5457 (5.095 sec/step)
+INFO:tensorflow:global step 13: loss = 11.5890 (5.060 sec/step)
+INFO:tensorflow:global step 14: loss = 11.2964 (5.165 sec/step)
+INFO:tensorflow:global step 15: loss = 10.7303 (5.159 sec/step)
+INFO:tensorflow:global step 16: loss = 10.1727 (5.098 sec/step)
+INFO:tensorflow:global step 17: loss = 9.8591 (5.103 sec/step)
+INFO:tensorflow:global step 18: loss = 9.7102 (5.158 sec/step)
+INFO:tensorflow:global step 19: loss = 9.1919 (5.102 sec/step)
+INFO:tensorflow:global step 20: loss = 8.9251 (5.180 sec/step)
+INFO:tensorflow:global step 21: loss = 9.0737 (5.464 sec/step)
+INFO:tensorflow:global step 22: loss = 8.8589 (5.262 sec/step)
+INFO:tensorflow:global step 23: loss = 8.8778 (5.159 sec/step)
+INFO:tensorflow:global step 24: loss = 8.2210 (5.134 sec/step)
+INFO:tensorflow:global step 25: loss = 8.3950 (5.192 sec/step)
+INFO:tensorflow:global step 26: loss = 7.9067 (5.201 sec/step)
+INFO:tensorflow:global step 27: loss = 7.9004 (5.175 sec/step)
+INFO:tensorflow:global step 28: loss = 7.8901 (5.175 sec/step)
+INFO:tensorflow:global step 29: loss = 7.6781 (6.558 sec/step)
+INFO:tensorflow:global_step/sec: 0.193282
+INFO:tensorflow:Recording summary at step 29.
+INFO:tensorflow:global step 30: loss = 7.4932 (5.719 sec/step)
+INFO:tensorflow:global step 31: loss = 7.2821 (5.155 sec/step)
+INFO:tensorflow:global step 32: loss = 7.4294 (5.207 sec/step)
+INFO:tensorflow:global step 33: loss = 7.1725 (5.256 sec/step)
+INFO:tensorflow:global step 34: loss = 7.3502 (5.310 sec/step)
+INFO:tensorflow:global step 35: loss = 6.9570 (5.243 sec/step)
+INFO:tensorflow:global step 36: loss = 6.6940 (5.222 sec/step)
+INFO:tensorflow:global step 37: loss = 7.1468 (5.568 sec/step)
+INFO:tensorflow:global step 38: loss = 6.6450 (5.251 sec/step)
+INFO:tensorflow:global step 39: loss = 6.8069 (5.187 sec/step)
+INFO:tensorflow:global step 40: loss = 6.3461 (5.197 sec/step)
+INFO:tensorflow:global step 41: loss = 6.3022 (5.231 sec/step)
+INFO:tensorflow:global step 42: loss = 6.5143 (5.199 sec/step)
+INFO:tensorflow:global step 43: loss = 6.3460 (5.550 sec/step)
+INFO:tensorflow:global step 44: loss = 6.0754 (5.210 sec/step)
+INFO:tensorflow:global step 45: loss = 6.3600 (5.219 sec/step)
+INFO:tensorflow:global step 46: loss = 6.1487 (5.186 sec/step)
+INFO:tensorflow:global step 47: loss = 5.7388 (5.253 sec/step)
+INFO:tensorflow:global step 48: loss = 5.4542 (5.213 sec/step)
+INFO:tensorflow:global step 49: loss = 5.6918 (5.267 sec/step)
+INFO:tensorflow:global step 50: loss = 5.5503 (5.509 sec/step)
+INFO:tensorflow:global step 51: loss = 5.4650 (5.423 sec/step)
+INFO:tensorflow:global_step/sec: 0.183331
+INFO:tensorflow:Recording summary at step 51.
+INFO:tensorflow:global step 52: loss = 5.2602 (6.851 sec/step)
+INFO:tensorflow:global step 53: loss = 5.8520 (5.163 sec/step)
+INFO:tensorflow:global step 54: loss = 5.2672 (5.210 sec/step)
+INFO:tensorflow:global step 55: loss = 5.5385 (5.238 sec/step)
+INFO:tensorflow:global step 56: loss = 5.5379 (5.694 sec/step)
+INFO:tensorflow:global step 57: loss = 5.4973 (5.801 sec/step)
+INFO:tensorflow:global step 58: loss = 5.5687 (5.252 sec/step)
+INFO:tensorflow:global step 59: loss = 5.4141 (5.528 sec/step)
+INFO:tensorflow:global step 60: loss = 4.8683 (5.297 sec/step)
+INFO:tensorflow:global step 61: loss = 5.1281 (5.260 sec/step)
+INFO:tensorflow:global step 62: loss = 5.5039 (5.193 sec/step)
+INFO:tensorflow:global step 63: loss = 5.0200 (5.256 sec/step)
+INFO:tensorflow:global step 64: loss = 4.8396 (5.194 sec/step)
+INFO:tensorflow:global step 65: loss = 4.8432 (5.219 sec/step)
+INFO:tensorflow:global step 66: loss = 4.9035 (5.217 sec/step)
+INFO:tensorflow:global step 67: loss = 5.1423 (5.241 sec/step)
+INFO:tensorflow:global step 68: loss = 5.5700 (5.430 sec/step)
+INFO:tensorflow:global step 69: loss = 4.8704 (5.380 sec/step)
+INFO:tensorflow:global step 70: loss = 4.9029 (5.175 sec/step)
+INFO:tensorflow:global step 71: loss = 4.8608 (5.223 sec/step)
+INFO:tensorflow:global step 72: loss = 4.1952 (5.183 sec/step)
+INFO:tensorflow:global step 73: loss = 4.9182 (5.562 sec/step)
+INFO:tensorflow:global_step/sec: 0.183066
+INFO:tensorflow:Recording summary at step 73.
+INFO:tensorflow:global step 74: loss = 4.4859 (7.235 sec/step)
+INFO:tensorflow:global step 75: loss = 4.6911 (5.260 sec/step)
+INFO:tensorflow:global step 76: loss = 5.2252 (5.490 sec/step)
+INFO:tensorflow:global step 77: loss = 4.4914 (5.274 sec/step)
+INFO:tensorflow:global step 78: loss = 4.6400 (5.268 sec/step)
+INFO:tensorflow:global step 79: loss = 4.4162 (5.873 sec/step)
+INFO:tensorflow:global step 80: loss = 4.8855 (5.627 sec/step)
+INFO:tensorflow:global step 81: loss = 4.6962 (5.124 sec/step)
+INFO:tensorflow:global step 82: loss = 4.7671 (5.190 sec/step)
+INFO:tensorflow:global step 84: loss = 4.6150 (5.145 sec/step)
+INFO:tensorflow:global step 85: loss = 4.0927 (5.447 sec/step)
+INFO:tensorflow:global step 86: loss = 4.0606 (5.279 sec/step)
+INFO:tensorflow:global step 87: loss = 5.0717 (5.211 sec/step)
+INFO:tensorflow:global step 88: loss = 4.4770 (5.166 sec/step)
+INFO:tensorflow:global step 89: loss = 4.4682 (5.142 sec/step)
+INFO:tensorflow:global step 90: loss = 4.6628 (5.186 sec/step)
+INFO:tensorflow:global step 91: loss = 4.4072 (5.209 sec/step)
+INFO:tensorflow:global step 92: loss = 4.1556 (5.171 sec/step)
+INFO:tensorflow:global step 93: loss = 4.8698 (5.470 sec/step)
+INFO:tensorflow:global step 94: loss = 3.8606 (5.188 sec/step)
+INFO:tensorflow:global step 95: loss = 4.1813 (5.212 sec/step)
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:Recording summary at step 96.
+INFO:tensorflow:global step 96: loss = 4.2999 (11.220 sec/step)
+INFO:tensorflow:global_step/sec: 0.184608
+INFO:tensorflow:global step 97: loss = 4.4652 (5.906 sec/step)
+INFO:tensorflow:global step 98: loss = 4.2050 (5.201 sec/step)
+INFO:tensorflow:global step 99: loss = 4.7017 (5.381 sec/step)
+INFO:tensorflow:global step 100: loss = 4.1414 (5.571 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+############ 0 evaluating, this takes a long while #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+2018-05-11 09:02:41.429783: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 09:02:42.324978: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 09:02:42.325063: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-100
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-100
+############ 1 runnning #################
+############ 1 training #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/zs/AI_Work/week9_new/object_detection/trainer.py:210: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+WARNING:tensorflow:From /home/zs/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:736: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-05-11 09:04:41.403194: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 09:04:41.930902: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 09:04:41.930959: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-100
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 100.
+INFO:tensorflow:global step 101: loss = 4.2507 (74.270 sec/step)
+INFO:tensorflow:global step 102: loss = 4.1365 (19.394 sec/step)
+INFO:tensorflow:global_step/sec: 0.0164423
+INFO:tensorflow:Recording summary at step 102.
+INFO:tensorflow:global step 103: loss = 3.9469 (14.087 sec/step)
+INFO:tensorflow:global step 104: loss = 4.2446 (18.339 sec/step)
+INFO:tensorflow:global step 105: loss = 3.9898 (9.112 sec/step)
+INFO:tensorflow:global step 106: loss = 4.0766 (5.114 sec/step)
+INFO:tensorflow:global step 107: loss = 3.9659 (5.118 sec/step)
+INFO:tensorflow:global step 108: loss = 4.0974 (5.159 sec/step)
+INFO:tensorflow:global step 109: loss = 4.2276 (5.105 sec/step)
+INFO:tensorflow:global step 110: loss = 4.0215 (5.135 sec/step)
+INFO:tensorflow:global step 111: loss = 4.1672 (5.309 sec/step)
+INFO:tensorflow:global step 112: loss = 3.7688 (5.438 sec/step)
+INFO:tensorflow:global step 113: loss = 3.9740 (5.449 sec/step)
+INFO:tensorflow:global step 114: loss = 3.8224 (5.637 sec/step)
+INFO:tensorflow:global step 115: loss = 3.7870 (5.497 sec/step)
+INFO:tensorflow:global step 116: loss = 3.7538 (5.285 sec/step)
+INFO:tensorflow:global step 117: loss = 3.9804 (5.231 sec/step)
+INFO:tensorflow:global_step/sec: 0.128795
+INFO:tensorflow:global step 118: loss = 4.5749 (6.775 sec/step)
+INFO:tensorflow:Recording summary at step 118.
+INFO:tensorflow:global step 119: loss = 3.9549 (5.485 sec/step)
+INFO:tensorflow:global step 120: loss = 4.0641 (5.602 sec/step)
+INFO:tensorflow:global step 121: loss = 3.8763 (5.425 sec/step)
+INFO:tensorflow:global step 122: loss = 3.9335 (5.527 sec/step)
+INFO:tensorflow:global step 123: loss = 3.8788 (5.716 sec/step)
+INFO:tensorflow:global step 124: loss = 3.8032 (5.428 sec/step)
+INFO:tensorflow:global step 125: loss = 3.6785 (5.383 sec/step)
+INFO:tensorflow:global step 126: loss = 3.6999 (5.165 sec/step)
+INFO:tensorflow:global step 127: loss = 3.8243 (5.348 sec/step)
+INFO:tensorflow:global step 128: loss = 3.6705 (5.401 sec/step)
+INFO:tensorflow:global step 129: loss = 4.1457 (6.212 sec/step)
+INFO:tensorflow:global step 130: loss = 3.5536 (5.602 sec/step)
+INFO:tensorflow:global step 131: loss = 3.8805 (5.342 sec/step)
+INFO:tensorflow:global step 132: loss = 3.4545 (5.496 sec/step)
+INFO:tensorflow:global step 133: loss = 3.6752 (5.325 sec/step)
+INFO:tensorflow:global step 134: loss = 3.8119 (5.364 sec/step)
+INFO:tensorflow:global step 135: loss = 3.7036 (5.193 sec/step)
+INFO:tensorflow:global step 136: loss = 3.4991 (5.285 sec/step)
+INFO:tensorflow:global step 137: loss = 3.6899 (5.466 sec/step)
+INFO:tensorflow:global step 138: loss = 3.4116 (5.308 sec/step)
+INFO:tensorflow:global step 139: loss = 3.5132 (5.307 sec/step)
+INFO:tensorflow:global_step/sec: 0.183364
+INFO:tensorflow:Recording summary at step 139.
+INFO:tensorflow:global step 140: loss = 3.6383 (7.302 sec/step)
+INFO:tensorflow:global step 141: loss = 3.6671 (5.730 sec/step)
+INFO:tensorflow:global step 142: loss = 3.6491 (5.319 sec/step)
+INFO:tensorflow:global step 143: loss = 3.9501 (5.573 sec/step)
+INFO:tensorflow:global step 144: loss = 3.7426 (5.650 sec/step)
+INFO:tensorflow:global step 145: loss = 3.6755 (5.667 sec/step)
+INFO:tensorflow:global step 146: loss = 4.1516 (5.542 sec/step)
+INFO:tensorflow:global step 147: loss = 3.3860 (5.399 sec/step)
+INFO:tensorflow:global step 148: loss = 3.9974 (5.482 sec/step)
+INFO:tensorflow:global step 149: loss = 3.9356 (5.578 sec/step)
+INFO:tensorflow:global step 150: loss = 3.3286 (5.382 sec/step)
+INFO:tensorflow:global step 151: loss = 3.4617 (5.253 sec/step)
+INFO:tensorflow:global step 152: loss = 3.5862 (5.299 sec/step)
+INFO:tensorflow:global step 153: loss = 3.8975 (5.658 sec/step)
+INFO:tensorflow:global step 154: loss = 3.8448 (5.308 sec/step)
+INFO:tensorflow:global step 155: loss = 3.6031 (5.405 sec/step)
+INFO:tensorflow:global step 156: loss = 3.3285 (5.348 sec/step)
+INFO:tensorflow:global step 157: loss = 3.4705 (5.303 sec/step)
+INFO:tensorflow:global step 158: loss = 3.5511 (5.283 sec/step)
+INFO:tensorflow:global step 159: loss = 3.1665 (5.317 sec/step)
+INFO:tensorflow:global step 160: loss = 3.4281 (5.356 sec/step)
+INFO:tensorflow:global step 161: loss = 3.8712 (5.343 sec/step)
+INFO:tensorflow:global_step/sec: 0.183335
+INFO:tensorflow:Recording summary at step 161.
+INFO:tensorflow:global step 162: loss = 3.3144 (7.610 sec/step)
+INFO:tensorflow:global step 163: loss = 3.6362 (5.387 sec/step)
+INFO:tensorflow:global step 164: loss = 3.2179 (5.384 sec/step)
+INFO:tensorflow:global step 165: loss = 3.3816 (6.119 sec/step)
+INFO:tensorflow:global step 166: loss = 3.1452 (5.655 sec/step)
+INFO:tensorflow:global step 167: loss = 3.9697 (5.273 sec/step)
+INFO:tensorflow:global step 168: loss = 3.8328 (5.334 sec/step)
+INFO:tensorflow:global step 169: loss = 3.6121 (5.271 sec/step)
+INFO:tensorflow:global step 170: loss = 3.1932 (5.312 sec/step)
+INFO:tensorflow:global step 171: loss = 3.6689 (5.304 sec/step)
+INFO:tensorflow:global step 172: loss = 3.2651 (5.351 sec/step)
+INFO:tensorflow:global step 173: loss = 3.4416 (5.341 sec/step)
+INFO:tensorflow:global step 174: loss = 3.6738 (5.340 sec/step)
+INFO:tensorflow:global step 175: loss = 3.7258 (5.328 sec/step)
+INFO:tensorflow:global step 176: loss = 3.3450 (5.354 sec/step)
+INFO:tensorflow:global step 177: loss = 3.3471 (5.680 sec/step)
+INFO:tensorflow:global step 178: loss = 3.2367 (5.347 sec/step)
+INFO:tensorflow:global step 179: loss = 3.5780 (5.390 sec/step)
+INFO:tensorflow:global step 180: loss = 3.7037 (5.367 sec/step)
+INFO:tensorflow:global step 181: loss = 3.4211 (5.329 sec/step)
+INFO:tensorflow:global step 182: loss = 3.6140 (5.353 sec/step)
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:global step 183: loss = 3.2824 (5.677 sec/step)
+INFO:tensorflow:Recording summary at step 183.
+INFO:tensorflow:global_step/sec: 0.184555
+INFO:tensorflow:global step 184: loss = 3.4608 (6.960 sec/step)
+INFO:tensorflow:global step 185: loss = 3.1796 (5.466 sec/step)
+INFO:tensorflow:global step 186: loss = 3.4645 (5.888 sec/step)
+INFO:tensorflow:global step 187: loss = 3.4804 (5.875 sec/step)
+INFO:tensorflow:global step 188: loss = 3.6973 (5.278 sec/step)
+INFO:tensorflow:global step 189: loss = 3.1115 (5.313 sec/step)
+INFO:tensorflow:global step 190: loss = 3.5035 (5.500 sec/step)
+INFO:tensorflow:global step 191: loss = 3.2228 (5.556 sec/step)
+INFO:tensorflow:global step 192: loss = 3.3863 (5.296 sec/step)
+INFO:tensorflow:global step 193: loss = 3.2774 (5.332 sec/step)
+INFO:tensorflow:global step 194: loss = 3.8253 (5.652 sec/step)
+INFO:tensorflow:global step 195: loss = 3.7567 (5.348 sec/step)
+INFO:tensorflow:global step 196: loss = 3.6172 (5.271 sec/step)
+INFO:tensorflow:global step 197: loss = 3.8417 (5.316 sec/step)
+INFO:tensorflow:global step 198: loss = 3.1294 (5.353 sec/step)
+INFO:tensorflow:global step 199: loss = 3.5027 (5.468 sec/step)
+INFO:tensorflow:global step 200: loss = 3.4057 (5.666 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+############ 1 evaluating, this takes a long while #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+2018-05-11 09:17:52.743747: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 09:17:53.698239: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 09:17:53.698302: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-200
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-200
+############ 2 runnning #################
+############ 2 training #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/zs/AI_Work/week9_new/object_detection/trainer.py:210: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+WARNING:tensorflow:From /home/zs/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:736: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-05-11 09:19:53.105606: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 09:19:53.632887: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 09:19:53.632962: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-200
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 200.
+INFO:tensorflow:global step 201: loss = 3.2876 (62.059 sec/step)
+INFO:tensorflow:global step 202: loss = 3.0534 (8.203 sec/step)
+INFO:tensorflow:global step 203: loss = 3.3266 (5.115 sec/step)
+INFO:tensorflow:global step 204: loss = 3.3613 (5.010 sec/step)
+INFO:tensorflow:global step 205: loss = 3.5490 (5.156 sec/step)
+INFO:tensorflow:global step 206: loss = 3.4805 (6.011 sec/step)
+INFO:tensorflow:global step 207: loss = 3.3871 (9.333 sec/step)
+INFO:tensorflow:global step 208: loss = 3.3846 (14.341 sec/step)
+INFO:tensorflow:global step 209: loss = 3.3342 (5.316 sec/step)
+INFO:tensorflow:global_step/sec: 0.0750992
+INFO:tensorflow:global step 210: loss = 3.5525 (9.289 sec/step)
+INFO:tensorflow:Recording summary at step 210.
+INFO:tensorflow:global step 211: loss = 2.9866 (5.179 sec/step)
+INFO:tensorflow:global step 212: loss = 3.3768 (5.232 sec/step)
+INFO:tensorflow:global step 213: loss = 3.4718 (5.459 sec/step)
+INFO:tensorflow:global step 214: loss = 3.0257 (5.641 sec/step)
+INFO:tensorflow:global step 215: loss = 3.3546 (5.659 sec/step)
+INFO:tensorflow:global step 216: loss = 3.4722 (5.389 sec/step)
+INFO:tensorflow:global step 217: loss = 3.0164 (5.326 sec/step)
+INFO:tensorflow:global step 218: loss = 2.9316 (5.415 sec/step)
+INFO:tensorflow:global step 219: loss = 3.3936 (5.218 sec/step)
+INFO:tensorflow:global step 220: loss = 3.8347 (5.501 sec/step)
+INFO:tensorflow:global step 221: loss = 3.1295 (5.349 sec/step)
+INFO:tensorflow:global step 222: loss = 2.9002 (5.201 sec/step)
+INFO:tensorflow:global step 223: loss = 3.1606 (5.219 sec/step)
+INFO:tensorflow:global step 224: loss = 3.3070 (5.263 sec/step)
+INFO:tensorflow:global step 225: loss = 3.1869 (5.226 sec/step)
+INFO:tensorflow:global step 226: loss = 2.9333 (5.236 sec/step)
+INFO:tensorflow:global step 227: loss = 3.3490 (5.266 sec/step)
+INFO:tensorflow:global step 228: loss = 3.1946 (5.570 sec/step)
+INFO:tensorflow:global step 229: loss = 3.2195 (5.195 sec/step)
+INFO:tensorflow:global step 230: loss = 3.2902 (6.476 sec/step)
+INFO:tensorflow:global_step/sec: 0.177723
+INFO:tensorflow:Recording summary at step 230.
+INFO:tensorflow:global step 231: loss = 3.1551 (5.530 sec/step)
+INFO:tensorflow:global step 232: loss = 3.4721 (5.289 sec/step)
+INFO:tensorflow:global step 233: loss = 3.0365 (5.285 sec/step)
+INFO:tensorflow:global step 234: loss = 3.0747 (5.265 sec/step)
+INFO:tensorflow:global step 235: loss = 2.9878 (5.587 sec/step)
+INFO:tensorflow:global step 236: loss = 3.3691 (5.229 sec/step)
+INFO:tensorflow:global step 237: loss = 3.3663 (5.278 sec/step)
+INFO:tensorflow:global step 238: loss = 2.8707 (6.015 sec/step)
+INFO:tensorflow:global step 239: loss = 2.9677 (5.560 sec/step)
+INFO:tensorflow:global step 240: loss = 2.9370 (5.204 sec/step)
+INFO:tensorflow:global step 241: loss = 3.7534 (5.190 sec/step)
+INFO:tensorflow:global step 242: loss = 3.2628 (5.241 sec/step)
+INFO:tensorflow:global step 243: loss = 3.3700 (5.269 sec/step)
+INFO:tensorflow:global step 244: loss = 2.8774 (5.220 sec/step)
+INFO:tensorflow:global step 245: loss = 3.1044 (5.248 sec/step)
+INFO:tensorflow:global step 246: loss = 2.7776 (5.520 sec/step)
+INFO:tensorflow:global step 247: loss = 2.6652 (5.366 sec/step)
+INFO:tensorflow:global step 248: loss = 3.2567 (5.266 sec/step)
+INFO:tensorflow:global step 249: loss = 3.0855 (5.189 sec/step)
+INFO:tensorflow:global step 250: loss = 3.3552 (5.222 sec/step)
+INFO:tensorflow:global step 251: loss = 3.1896 (5.378 sec/step)
+INFO:tensorflow:global step 252: loss = 3.1420 (6.060 sec/step)
+INFO:tensorflow:global_step/sec: 0.183373
+INFO:tensorflow:Recording summary at step 252.
+INFO:tensorflow:global step 253: loss = 2.6645 (6.235 sec/step)
+INFO:tensorflow:global step 254: loss = 3.2173 (5.270 sec/step)
+INFO:tensorflow:global step 255: loss = 3.2244 (5.330 sec/step)
+INFO:tensorflow:global step 256: loss = 3.1517 (5.317 sec/step)
+INFO:tensorflow:global step 257: loss = 3.5363 (5.298 sec/step)
+INFO:tensorflow:global step 258: loss = 2.8673 (5.379 sec/step)
+INFO:tensorflow:global step 259: loss = 3.1717 (5.312 sec/step)
+INFO:tensorflow:global step 260: loss = 2.9849 (5.266 sec/step)
+INFO:tensorflow:global step 261: loss = 3.1745 (5.364 sec/step)
+INFO:tensorflow:global step 262: loss = 3.5579 (5.256 sec/step)
+INFO:tensorflow:global step 263: loss = 3.0164 (5.265 sec/step)
+INFO:tensorflow:global step 264: loss = 3.1024 (5.304 sec/step)
+INFO:tensorflow:global step 265: loss = 3.2903 (5.532 sec/step)
+INFO:tensorflow:global step 266: loss = 3.0459 (5.263 sec/step)
+INFO:tensorflow:global step 267: loss = 3.1810 (5.368 sec/step)
+INFO:tensorflow:global step 268: loss = 2.9667 (5.246 sec/step)
+INFO:tensorflow:global step 269: loss = 3.3457 (5.281 sec/step)
+INFO:tensorflow:global step 270: loss = 2.8698 (5.298 sec/step)
+INFO:tensorflow:global step 271: loss = 3.2138 (5.293 sec/step)
+INFO:tensorflow:global step 272: loss = 3.0161 (5.276 sec/step)
+INFO:tensorflow:global step 273: loss = 2.9766 (5.269 sec/step)
+INFO:tensorflow:global step 274: loss = 2.7077 (5.841 sec/step)
+INFO:tensorflow:global_step/sec: 0.183333
+INFO:tensorflow:Recording summary at step 274.
+INFO:tensorflow:global step 275: loss = 3.2309 (7.714 sec/step)
+INFO:tensorflow:global step 276: loss = 2.9794 (5.445 sec/step)
+INFO:tensorflow:global step 277: loss = 2.9051 (5.272 sec/step)
+INFO:tensorflow:global step 278: loss = 3.5204 (5.901 sec/step)
+INFO:tensorflow:global step 279: loss = 2.8699 (5.918 sec/step)
+INFO:tensorflow:global step 280: loss = 3.2314 (5.242 sec/step)
+INFO:tensorflow:global step 281: loss = 2.7232 (5.176 sec/step)
+INFO:tensorflow:global step 282: loss = 3.0574 (5.236 sec/step)
+INFO:tensorflow:global step 283: loss = 2.8613 (5.216 sec/step)
+INFO:tensorflow:global step 284: loss = 3.4336 (5.258 sec/step)
+INFO:tensorflow:global step 285: loss = 2.9003 (5.284 sec/step)
+INFO:tensorflow:global step 286: loss = 3.0164 (5.342 sec/step)
+INFO:tensorflow:global step 287: loss = 3.1965 (5.253 sec/step)
+INFO:tensorflow:global step 288: loss = 3.0548 (5.239 sec/step)
+INFO:tensorflow:global step 289: loss = 2.8113 (5.537 sec/step)
+INFO:tensorflow:global step 290: loss = 3.4960 (5.263 sec/step)
+INFO:tensorflow:global step 291: loss = 2.7301 (5.284 sec/step)
+INFO:tensorflow:global step 292: loss = 3.0872 (6.001 sec/step)
+INFO:tensorflow:global step 293: loss = 3.1968 (5.464 sec/step)
+INFO:tensorflow:global step 294: loss = 3.1136 (5.567 sec/step)
+INFO:tensorflow:global step 295: loss = 3.1914 (5.240 sec/step)
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:global step 296: loss = 3.0127 (5.864 sec/step)
+INFO:tensorflow:global_step/sec: 0.183306
+INFO:tensorflow:Recording summary at step 297.
+INFO:tensorflow:global step 297: loss = 3.5671 (6.725 sec/step)
+INFO:tensorflow:global step 298: loss = 3.2044 (5.563 sec/step)
+INFO:tensorflow:global step 299: loss = 3.1319 (5.443 sec/step)
+INFO:tensorflow:global step 300: loss = 3.1705 (5.959 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+############ 2 evaluating, this takes a long while #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+2018-05-11 09:31:42.973314: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 09:31:43.895312: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 09:31:43.895388: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-300
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-300
+############ 3 runnning #################
+############ 3 training #################
+/home/zs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/zs/AI_Work/week9_new/object_detection/trainer.py:210: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+WARNING:tensorflow:From /home/zs/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:736: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-05-11 09:33:40.452229: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-11 09:33:40.977975: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-05-11 09:33:40.978025: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (zhang-pc): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from /home/zs/AI_Work/week9_new/out/train/model.ckpt-300
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 300.
+INFO:tensorflow:global step 301: loss = 3.0621 (70.193 sec/step)
+INFO:tensorflow:global step 302: loss = 2.8696 (10.690 sec/step)
+INFO:tensorflow:global step 303: loss = 3.3081 (5.013 sec/step)
+INFO:tensorflow:global step 304: loss = 3.0109 (5.006 sec/step)
+INFO:tensorflow:global step 305: loss = 3.0529 (5.024 sec/step)
+INFO:tensorflow:global step 306: loss = 3.0312 (5.025 sec/step)
+INFO:tensorflow:global step 307: loss = 3.2818 (5.009 sec/step)
+INFO:tensorflow:global step 308: loss = 3.0092 (5.068 sec/step)
+INFO:tensorflow:global_step/sec: 0.0674608
+INFO:tensorflow:global step 309: loss = 2.9497 (10.943 sec/step)
+INFO:tensorflow:Recording summary at step 309.
+INFO:tensorflow:global step 310: loss = 2.8383 (5.767 sec/step)
+INFO:tensorflow:global step 311: loss = 3.1709 (5.014 sec/step)
+INFO:tensorflow:global step 312: loss = 2.9004 (5.078 sec/step)
+INFO:tensorflow:global step 313: loss = 2.8354 (5.126 sec/step)
+INFO:tensorflow:global step 314: loss = 2.9685 (5.154 sec/step)
+INFO:tensorflow:global step 315: loss = 2.8592 (5.121 sec/step)
+INFO:tensorflow:global step 316: loss = 2.8377 (5.224 sec/step)
+INFO:tensorflow:global step 317: loss = 2.8327 (5.520 sec/step)
+INFO:tensorflow:global step 318: loss = 3.1040 (5.143 sec/step)
+INFO:tensorflow:global step 319: loss = 3.1681 (5.238 sec/step)
+INFO:tensorflow:global step 320: loss = 3.0832 (5.105 sec/step)
+INFO:tensorflow:global step 321: loss = 2.7433 (5.120 sec/step)
+INFO:tensorflow:global step 322: loss = 2.7447 (5.504 sec/step)
+INFO:tensorflow:global step 323: loss = 3.3087 (5.191 sec/step)
+INFO:tensorflow:global step 324: loss = 2.9629 (5.090 sec/step)
+INFO:tensorflow:global step 325: loss = 2.9148 (5.156 sec/step)
+INFO:tensorflow:global step 326: loss = 2.6890 (5.505 sec/step)
+INFO:tensorflow:global step 327: loss = 3.2374 (5.222 sec/step)
+INFO:tensorflow:global step 328: loss = 2.8359 (5.266 sec/step)
+INFO:tensorflow:global step 329: loss = 2.8800 (5.163 sec/step)
+INFO:tensorflow:global step 330: loss = 3.2107 (5.181 sec/step)
+INFO:tensorflow:Recording summary at step 330.
+INFO:tensorflow:global_step/sec: 0.183321
+INFO:tensorflow:global step 331: loss = 3.3558 (6.724 sec/step)
+INFO:tensorflow:global step 332: loss = 3.1096 (5.370 sec/step)
+INFO:tensorflow:global step 333: loss = 3.0486 (5.402 sec/step)
+INFO:tensorflow:global step 334: loss = 2.8897 (5.178 sec/step)
+INFO:tensorflow:global step 335: loss = 3.3500 (5.686 sec/step)
+INFO:tensorflow:global step 336: loss = 2.8848 (5.834 sec/step)
+INFO:tensorflow:global step 337: loss = 3.3841 (5.172 sec/step)
+INFO:tensorflow:global step 338: loss = 2.9423 (5.236 sec/step)
+INFO:tensorflow:global step 339: loss = 3.0106 (5.998 sec/step)
+INFO:tensorflow:global step 340: loss = 2.5957 (5.449 sec/step)
+INFO:tensorflow:global step 341: loss = 3.2083 (5.113 sec/step)
+INFO:tensorflow:global step 342: loss = 2.6532 (5.130 sec/step)
+INFO:tensorflow:global step 343: loss = 3.0048 (5.130 sec/step)
+INFO:tensorflow:global step 344: loss = 2.9174 (5.174 sec/step)
+INFO:tensorflow:global step 345: loss = 2.9277 (5.529 sec/step)
+INFO:tensorflow:global step 346: loss = 3.4635 (5.123 sec/step)
+INFO:tensorflow:global step 347: loss = 3.0284 (5.118 sec/step)
+INFO:tensorflow:global step 348: loss = 2.8397 (5.189 sec/step)
+INFO:tensorflow:global step 349: loss = 3.0659 (5.186 sec/step)
+INFO:tensorflow:global step 350: loss = 2.7829 (5.208 sec/step)
+INFO:tensorflow:global step 351: loss = 2.7142 (5.229 sec/step)
+INFO:tensorflow:global step 352: loss = 3.1863 (5.278 sec/step)
+INFO:tensorflow:global_step/sec: 0.18317
+INFO:tensorflow:Recording summary at step 352.
+INFO:tensorflow:global step 353: loss = 2.6925 (7.560 sec/step)
+INFO:tensorflow:global step 354: loss = 3.0595 (5.248 sec/step)
+INFO:tensorflow:global step 355: loss = 2.9595 (5.231 sec/step)
+INFO:tensorflow:global step 356: loss = 3.0729 (5.306 sec/step)
+INFO:tensorflow:global step 357: loss = 2.7805 (5.283 sec/step)
+INFO:tensorflow:global step 358: loss = 2.5978 (5.216 sec/step)
+INFO:tensorflow:global step 359: loss = 2.6235 (5.262 sec/step)
+INFO:tensorflow:global step 360: loss = 2.6047 (5.219 sec/step)
+INFO:tensorflow:global step 361: loss = 3.6057 (5.663 sec/step)
+INFO:tensorflow:global step 362: loss = 2.6474 (5.817 sec/step)
+INFO:tensorflow:global step 363: loss = 2.9687 (5.192 sec/step)
+INFO:tensorflow:global step 364: loss = 3.0885 (5.244 sec/step)
+INFO:tensorflow:global step 365: loss = 3.5335 (5.115 sec/step)
+INFO:tensorflow:global step 366: loss = 2.6589 (5.257 sec/step)
+INFO:tensorflow:global step 367: loss = 3.1996 (5.278 sec/step)
+INFO:tensorflow:global step 368: loss = 3.0002 (5.207 sec/step)
+INFO:tensorflow:global step 369: loss = 2.8332 (5.244 sec/step)
+INFO:tensorflow:global step 370: loss = 2.7938 (5.261 sec/step)
+INFO:tensorflow:global step 371: loss = 2.7161 (5.280 sec/step)
+INFO:tensorflow:global step 372: loss = 3.1420 (5.175 sec/step)
+INFO:tensorflow:global step 373: loss = 2.7695 (5.190 sec/step)
+INFO:tensorflow:global step 374: loss = 2.9254 (5.208 sec/step)
+INFO:tensorflow:global_step/sec: 0.184135
+INFO:tensorflow:global step 375: loss = 2.7044 (6.640 sec/step)
+INFO:tensorflow:Recording summary at step 375.
+INFO:tensorflow:global step 376: loss = 2.9993 (5.590 sec/step)
+INFO:tensorflow:global step 377: loss = 2.7991 (5.212 sec/step)
+INFO:tensorflow:global step 378: loss = 2.9306 (5.232 sec/step)
+INFO:tensorflow:global step 379: loss = 3.1062 (5.473 sec/step)
+INFO:tensorflow:global step 380: loss = 2.8363 (5.307 sec/step)
+INFO:tensorflow:global step 381: loss = 2.7289 (5.293 sec/step)
+INFO:tensorflow:global step 382: loss = 2.9237 (5.785 sec/step)
+INFO:tensorflow:global step 383: loss = 2.6320 (5.677 sec/step)
+INFO:tensorflow:global step 384: loss = 2.7873 (5.173 sec/step)
+INFO:tensorflow:global step 385: loss = 3.3071 (5.248 sec/step)
+INFO:tensorflow:global step 386: loss = 3.1132 (5.155 sec/step)
+INFO:tensorflow:global step 387: loss = 2.7435 (5.190 sec/step)
+INFO:tensorflow:global step 388: loss = 3.0939 (5.191 sec/step)
+INFO:tensorflow:global step 389: loss = 2.8011 (5.180 sec/step)
+INFO:tensorflow:global step 390: loss = 2.9532 (5.208 sec/step)
+INFO:tensorflow:global step 391: loss = 3.0570 (5.263 sec/step)
+INFO:tensorflow:global step 392: loss = 2.9974 (5.244 sec/step)
+INFO:tensorflow:global step 393: loss = 2.7489 (5.300 sec/step)
+INFO:tensorflow:global step 394: loss = 2.9530 (5.240 sec/step)
+INFO:tensorflow:global step 395: loss = 2.9339 (5.166 sec/step)
+INFO:tensorflow:global step 396: loss = 2.7461 (5.180 sec/step)
+INFO:tensorflow:global step 397: loss = 2.9005 (5.230 sec/step)
+INFO:tensorflow:Saving checkpoint to path /home/zs/AI_Work/week9_new/out/train/model.ckpt
+INFO:tensorflow:global_step/sec: 0.191332
+INFO:tensorflow:Recording summary at step 397.
+INFO:tensorflow:global step 398: loss = 2.9882 (10.503 sec/step)
+INFO:tensorflow:global step 399: loss = 2.8914 (5.185 sec/step)
+INFO:tensorflow:global step 400: loss = 3.1785 (5.621 sec/step)
+
